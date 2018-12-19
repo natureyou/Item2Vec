@@ -19,6 +19,14 @@ product recommendation with Item2Vec
 - Item들간 Similarity 계산하여 연관 상품 추천
 
 
+<Code Structure>
+  1. Log Parsing (From S3)
+  2. Dataset Building
+  3. Training
+  4. Testing / Result
+  5. Uploading (To S3)
+  
+
 # Follow-Up Work
 - Embeded item vector를 활용해 LSTM 적용 : 시계열 추천 > 개인화 추천 적용 가능
 - Item Category, Item Name, Item Image 등의 Meta Data 추가 활용하여 Embedding
