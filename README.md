@@ -19,7 +19,7 @@ product recommendation with Item2Vec
 - Item들간 Similarity 계산하여 연관 상품 추천
 
 
-<Code Structure>
+[Code Structure]
   1. Log Parsing (From S3)
   2. Dataset Building
   3. Training
